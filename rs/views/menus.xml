@@ -1,7 +1,12 @@
 <odoo>
     <data>
+        <!-- induk -->
         <menuitem id="ir_ui_menu_rs_root" name="SIMRS" web_icon="odoo_bud,static/description/icon.png"/>
+
+        <!-- master data -->
         <menuitem id="ir_ui_menu_rs_master" name="Master Data" sequence="1" parent="ir_ui_menu_rs_root"/>
         <menuitem id="ir_ui_menu_rs_poli" sequence="1" action="ir_actions_act_window_rs_poli" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="ir_ui_menu_rs_grup_diagnosa" sequence="2" action="ir_actions_act_window_rs_grup_diagnosa" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="ir_ui_menu_rs_diagnosa" sequence="3" action="ir_actions_act_window_rs_diagnosa" parent="ir_ui_menu_rs_master"/>
     </data>
 </odoo>

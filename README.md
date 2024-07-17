@@ -69,6 +69,6 @@ python -m venv vxz
 .\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -d sf01 -i rs --stop-after-init
 
 #run and update
-.\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -u rs --dev all
+.\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -d sf01 -u rs --dev all
 
 ```

@@ -6,7 +6,7 @@
     'version': '1.0',
     'application': True,
     'category': 'Productivity',
-    'license': 'Other',
+    'license': 'Other proprietary',
     'depends': ['base', 'mail'],
 
     # always loaded
@@ -14,8 +14,8 @@
         'security/ir.model.access.csv',
         # 'data/sfx_jenis_obat.csv',
         'views/rs_poli_views.xml',
-        #'views/sf_solvent_views.xml',
-        #'views/sf_drug_views.xml',
+        'views/rs_diagnosa_views.xml',
+        'views/rs_grup_diagnosa_views.xml',
         #'views/sf_drug_bud_views.xml',
         'views/menus.xml',
     ],
