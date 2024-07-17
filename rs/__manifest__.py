@@ -16,7 +16,7 @@
         'views/rs_poli_views.xml',
         'views/rs_diagnosa_views.xml',
         'views/rs_grup_diagnosa_views.xml',
-        #'views/sf_drug_bud_views.xml',
+        'views/rs_pasien_views.xml',
         'views/menus.xml',
     ],
 
