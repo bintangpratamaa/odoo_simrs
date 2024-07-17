@@ -1,5 +1,20 @@
 # ODOO SIMRS ADDONS
-Sistem Informasi Rumah Sakit
+Sistem Informasi Rumah Sakit  
+
+## qa
+```
+1. gunakan odoo versi 17.0
+2. setiap tabel/model dikasih prefix rs_
+3. ...
+```
+
+## todo
+```
+master data
+- rs_poli
+- rs_obat
+- rs_pasien
+```
 
 ## note
 ```
@@ -12,10 +27,10 @@ python -m venv vxz
 #install requirement on windows
 .\vxz\Scripts\pip.exe install -r .\odoo\requirements.txt
 
-#run
-.\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -u rs --dev all
-
-#install
+#first time install
 .\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -d sf01 -i rs --stop-after-init
+
+#run and update
+.\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -u rs --dev all
 
 ```
