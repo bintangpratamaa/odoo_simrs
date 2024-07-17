@@ -24,7 +24,7 @@ services:
     image: postgres:16-alpine
     restart: no
     ports:
-      - 5433:5432
+      - 5432:5432
     volumes:
       - ./varlibpostgresqldata:/var/lib/postgresql/data
     environment:
