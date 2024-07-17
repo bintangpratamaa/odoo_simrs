@@ -1,9 +1,7 @@
 <odoo>
     <data>
-        <menuitem id="ir_ui_menu_rs_root" name="SIMRS" web_icon="odoo_bud,static/description/icon.png">
-            <menuitem sequence="1"
-                      id="ir_ui_menu_rs_poli"
-                      action="ir_actions_act_window_rs_poli"/>
-        </menuitem>
+        <menuitem id="ir_ui_menu_rs_root" name="SIMRS" web_icon="odoo_bud,static/description/icon.png"/>
+        <menuitem id="ir_ui_menu_rs_master" name="Master Data" sequence="1" parent="ir_ui_menu_rs_root"/>
+        <menuitem id="ir_ui_menu_rs_poli" sequence="1" action="ir_actions_act_window_rs_poli" parent="ir_ui_menu_rs_master"/>
     </data>
 </odoo>
