@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <menuitem id="ir_ui_menu_rs_root" name="SIMRS" web_icon="odoo_bud,static/description/icon.png">
+            <menuitem sequence="1"
+                      id="ir_ui_menu_rs_poli"
+                      action="ir_actions_act_window_rs_poli"/>
+        </menuitem>
+    </data>
+</odoo>
