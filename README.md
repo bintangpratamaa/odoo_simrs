@@ -1,7 +1,7 @@
 # ODOO SIMRS ADDONS
 Sistem Informasi Rumah Sakit  
 
-## qa
+## ketentuan
 ```
 1. gunakan odoo versi 17.0
 2. setiap tabel/model dikasih prefix rs_
@@ -14,6 +14,44 @@ master data
 - rs_poli
 - rs_obat
 - rs_pasien
+```
+
+## contoh docker compose untuk postgresql
+```
+services:
+  db:
+    container_name: devodoo17_postgres16
+    image: postgres:16-alpine
+    restart: no
+    ports:
+      - 5433:5432
+    volumes:
+      - ./varlibpostgresqldata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=qwertyu
+      - POSTGRES_DB=postgres
+```
+
+## contoh config
+```
+[options]
+addons_path = .\odoo\addons,.\odoo_simrs
+db_password = xxx
+db_user = odoo17
+db_port = 5432
+data_dir = .\data
+```
+
+## how to run from source in windows
+```
+1. install python 3
+2. install wkhtmltopdf
+3. install visual studio build tools
+4. git clone odoo
+5. buat virtual env
+6. install python package requirement dari python virtual env
+7. jalankan odoo dari python virtual env
 ```
 
 ## note
