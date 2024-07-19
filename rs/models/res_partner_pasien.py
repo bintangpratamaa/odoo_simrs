@@ -7,6 +7,9 @@ class ResPartnerPasien(models.Model):
     no_rm = fields.Char(string='Nomor Rekam Medis')
     date_of_birth = fields.Date(string='Date of Birth')
     flag_pasien = fields.Boolean()
+    datetime_pendaftaran = fields.Datetime(string='Tanggal dan Jam Pendaftaran',
+                                            default=lambda self: fields.Datetime.now())
+
 
     @api.model
     def create(self, vals):
