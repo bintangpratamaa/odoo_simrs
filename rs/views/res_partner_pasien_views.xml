@@ -1,0 +1,53 @@
+<odoo>
+
+    <!-- form -->
+    <record id="ir_ui_view_rs_pasien_form" model="ir.ui.view">
+        <field name="name">rs_pasien_form</field>
+        <field name="model">res.partner</field>
+        <field name="priority" eval="20"/>
+        <field name="arch" type="xml">
+            <form string="Pasien Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="no_rm"/>
+                    </group>
+                </sheet>
+                <!-- chatter -->
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- list / tree / tabular -->
+    <record id="ir_ui_view_rs_pasien_tree" model="ir.ui.view">
+        <field name="name">rs_pasien_tree</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <tree string="Pasien Tree">
+                <field name="name"/>
+                <field name="no_rm"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- action -->
+    <record id="ir_actions_act_window_rs_pasien" model="ir.actions.act_window">
+        <field name="name">Pasien</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('flag_pasien', '=', True),('is_company','=',False)]</field>
+        <field name="view_ids"
+               eval="[
+               (5, 0, 0),
+               (0, 0, {'view_mode': 'tree', 'view_id': ref('ir_ui_view_rs_pasien_tree')}),
+               (0, 0, {'view_mode': 'form', 'view_id': ref('ir_ui_view_rs_pasien_form')})
+               ]"/>
+        <field name="context">{'force_flag_pasien_true': True}</field>
+    </record>
+
+</odoo>
