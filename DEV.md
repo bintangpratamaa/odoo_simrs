@@ -2,8 +2,6 @@
 
 ## Master Data
 
-### rs_obat
-
 ```
 rs_agama
 name, urutan

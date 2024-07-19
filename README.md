@@ -5,7 +5,9 @@ Sistem Informasi Rumah Sakit
 ```
 1. gunakan odoo versi 17.0
 2. setiap tabel/model dikasih prefix rs_
-3. ...
+3. selalu pull dulu sebelum coding
+4. selalu push sedikit apapun coding yang dilakukan
+5. ...
 ```
 
 ## todo
