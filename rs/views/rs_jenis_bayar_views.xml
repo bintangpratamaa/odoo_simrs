@@ -1,0 +1,38 @@
+<odoo>
+
+    <!-- Tree View -->
+    <record id="view_rs_jenis_bayar_tree" model="ir.ui.view">
+        <field name="name">rs_jenis_bayar_tree</field>
+        <field name="model">rs_jenis_bayar</field>
+        <field name="arch" type="xml">
+            <tree string="Jenis Pembayaran">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_rs_jenis_bayar_form" model="ir.ui.view">
+        <field name="name">rs_jenis_bayar_form</field>
+        <field name="model">rs_jenis_bayar</field>
+        <field name="arch" type="xml">
+            <form string="Jenis Pembayaran">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action Menu -->
+    <record id="action_rs_jenis_bayar" model="ir.actions.act_window">
+        <field name="name">Jenis Pembayaran</field>
+        <field name="res_model">rs_jenis_bayar</field>
+        <field name="view_mode">tree,form</field>
+        <!--<field name="view_id" ref="view_rs_jenis_bayar_tree"/>-->
+    </record>
+
+</odoo>
