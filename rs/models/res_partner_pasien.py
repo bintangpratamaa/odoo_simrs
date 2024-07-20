@@ -1,4 +1,5 @@
 from odoo import models, fields, api
+from odoo.exceptions import ValidationError
 
 
 class ResPartnerPasien(models.Model):
@@ -8,8 +9,7 @@ class ResPartnerPasien(models.Model):
     date_of_birth = fields.Date(string='Date of Birth')
     flag_pasien = fields.Boolean()
     datetime_pendaftaran = fields.Datetime(string='Tanggal dan Jam Pendaftaran',
-                                            default=lambda self: fields.Datetime.now())
-
+                                           default=lambda self: fields.Datetime.now())
 
     @api.model
     def create(self, vals):
@@ -22,3 +22,9 @@ class ResPartnerPasien(models.Model):
     _sql_constraints = [
         ('no_rm_unique', 'unique(no_rm)', 'Nomor Rekam Medis sudah ada!'),
     ]
+
+    @api.constrains('flag_pasien', 'is_company')
+    def _check_flag_pasien(self):
+        for record in self:
+            if record.flag_pasien and record.is_company:
+                raise ValidationError("Flag Pasien hanya bisa dicentang jika bukan perusahaan.")

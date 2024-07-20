@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherit the res.partner form view -->
+        <record id="view_partner_form_inherit_pasien" model="ir.ui.view">
+            <field name="name">res.partner.form.inherit.pasien</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='internal_notes']" position="after">
+                    <page name="identitas_pasien" string="Identitas Pasien">
+                        <group>
+                            <field name="flag_pasien"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
