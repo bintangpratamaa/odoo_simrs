@@ -27,3 +27,5 @@ class RsDiagnosa(models.Model):
         # ('name_check', 'unique(name)', 'Name must unique!'),
         ('diagnosa_kode_check','unique(diagnosa_kode)', 'Diagnosa kode must be unique!'),
     ]
+
+    _order = 'diagnosa_kode ASC'
