@@ -11,12 +11,7 @@ Sistem Informasi Rumah Sakit
 ```
 
 ## todo
-```
-master data
-- rs_poli
-- rs_obat
-- rs_pasien
-```
+pindah ke [onedrive](https://1drv.ms/x/s!Aj-kfqqxTNGGkcY2GfYo_CTR6qU6Fg?e=rjZ3yX) 
 
 ## contoh docker compose untuk postgresql
 ```
