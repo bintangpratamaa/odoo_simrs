@@ -4,3 +4,7 @@ ir_model_access.group_user.rs_diagnosa,group_user.rs_diagnosa,model_rs_diagnosa,
 ir_model_access.group_user.rs_grup_diagnosa,group_user.rs_grup_diagnosa,model_rs_grup_diagnosa,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_jenis_bayar,group_user.rs_jenis_bayar,model_rs_jenis_bayar,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_agama,group_user.rs_agama,model_rs_agama,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_goldar,group_user.rs_goldar,model_rs_goldar,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_stat_kawin,group_user.rs_stat_kawin,model_rs_stat_kawin,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_kelas,group_user.rs_kelas,model_rs_kelas,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_prosedur,group_user.rs_prosedur,model_rs_prosedur,base.group_user,1,1,1,1
