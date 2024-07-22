@@ -12,6 +12,7 @@
                         <field name="name"/>
                         <field name="no_rm"/>
                         <field name="datetime_pendaftaran"/>
+                        <field name="rs_agama_id"/>
                     </group>
                 </sheet>
                 <!-- chatter -->

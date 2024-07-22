@@ -5,7 +5,7 @@ class RsAgama(models.Model):
     # tambahkan chatter
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    _name = 'rs.agama'
+    _name = 'rs_agama'
     _description = 'agama'
 
     name = fields.Char(

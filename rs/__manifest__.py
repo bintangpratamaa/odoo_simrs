@@ -19,6 +19,7 @@
         'views/res_partner_pasien_views.xml',
         'views/rs_jenis_bayar_views.xml',
         'views/res_partner_views.xml',
+        'views/rs_agama_views.xml',
         'views/menus.xml',
     ],
 

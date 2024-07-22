@@ -10,6 +10,7 @@ class ResPartnerPasien(models.Model):
     flag_pasien = fields.Boolean()
     datetime_pendaftaran = fields.Datetime(string='Tanggal dan Jam Pendaftaran',
                                            default=lambda self: fields.Datetime.now())
+    rs_agama_id = fields.Many2one("rs_agama")
 
     @api.model
     def create(self, vals):
