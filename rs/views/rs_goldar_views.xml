@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_agama" model="ir.actions.act_window">
+            <field name="name">Goldar</field>
+            <field name="res_model">rs_goldar</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_goldar_form" model="ir.ui.view">
+            <field name="name">rs_goldar_form</field>
+            <field name="model">rs_goldar</field>
+            <field name="arch" type="xml">
+                <form string="goldar Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_goldar_tree" model="ir.ui.view">
+            <field name="name">rs_goldar_tree</field>
+            <field name="model">rs_goldar</field>
+            <field name="arch" type="xml">
+                <tree string="goldar Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
