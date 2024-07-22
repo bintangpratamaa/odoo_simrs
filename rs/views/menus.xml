@@ -5,18 +5,15 @@
 
         <!-- master data -->
         <menuitem id="ir_ui_menu_rs_master" name="Master Data" sequence="1" parent="ir_ui_menu_rs_root"/>
-        <menuitem id="ir_ui_menu_rs_poli" sequence="1" action="ir_actions_act_window_rs_poli"
-                  parent="ir_ui_menu_rs_master"/>
-        <menuitem id="ir_ui_menu_rs_grup_diagnosa" sequence="2" action="ir_actions_act_window_rs_grup_diagnosa"
-                  parent="ir_ui_menu_rs_master"/>
-        <menuitem id="ir_ui_menu_rs_diagnosa" sequence="3" action="ir_actions_act_window_rs_diagnosa"
-                  parent="ir_ui_menu_rs_master"/>
-        <menuitem id="ir_ui_menu_rs_pasien" sequence="4" action="ir_actions_act_window_rs_pasien"
-                  parent="ir_ui_menu_rs_master"/>
-        <menuitem id="menu_rs_jenis_bayar" sequence="5" action="action_rs_jenis_bayar"
-                  parent="ir_ui_menu_rs_master"/>
-        <menuitem id="menu_rs_agama" sequence="6" action="ir_actions_act_window_rs_agama"
-                  parent="ir_ui_menu_rs_master"/>
-
+        <menuitem id="ir_ui_menu_rs_poli" sequence="1" action="ir_actions_act_window_rs_poli" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="ir_ui_menu_rs_grup_diagnosa" sequence="2" action="ir_actions_act_window_rs_grup_diagnosa" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="ir_ui_menu_rs_diagnosa" sequence="3" action="ir_actions_act_window_rs_diagnosa" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="ir_ui_menu_rs_pasien" sequence="4" action="ir_actions_act_window_rs_pasien" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_jenis_bayar" sequence="5" action="action_rs_jenis_bayar" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_agama" sequence="6" action="ir_actions_act_window_rs_agama" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_goldar" sequence="7" action="ir_actions_act_window_rs_goldar" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_stat_kawin" sequence="8" action="ir_actions_act_window_rs_stat_kawin" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_kelas" sequence="9" action="ir_actions_act_window_rs_kelas" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_prosedur" sequence="10" action="ir_actions_act_window_rs_prosedur" parent="ir_ui_menu_rs_master"/>
     </data>
 </odoo>
