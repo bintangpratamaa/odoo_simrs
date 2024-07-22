@@ -65,7 +65,10 @@ python -m venv vxz
 #first time install
 .\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -d sf01 -i rs --stop-after-init
 
-#run and update
+#run and update on windows
 .\vxz\Scripts\python.exe .\odoo\odoo-bin -c .\konfig_rs.conf -d sf01 -u rs --dev all
+
+#run and update on mac/linux
+./vxz/bin/python odoo/odoo-bin -c konfig_rs.conf -d sf01 -u rs --dev all
 
 ```
