@@ -20,6 +20,10 @@
         'views/rs_jenis_bayar_views.xml',
         'views/res_partner_views.xml',
         'views/rs_agama_views.xml',
+        'views/rs_goldar_views.xml',
+        'views/rs_stat_kawin_views.xml',
+        'views/rs_kelas_views.xml',
+        'views/rs_prosedur_views.xml',
         'views/menus.xml',
     ],
 
