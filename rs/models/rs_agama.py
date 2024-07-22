@@ -6,10 +6,10 @@ class RsAgama(models.Model):
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
     _name = 'rs_agama'
-    _description = 'agama'
+    _description = 'agamaa'
 
     name = fields.Char(
-        string="agama",
+        string="agamaaa",
         help="Input agama name here")
 
     _sql_constraints = [
