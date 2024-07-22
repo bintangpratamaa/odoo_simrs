@@ -2,7 +2,7 @@
     <data>
 
         <!-- action -->
-        <record id="ir_actions_act_window_rs_agama" model="ir.actions.act_window">
+        <record id="ir_actions_act_window_rs_goldar" model="ir.actions.act_window">
             <field name="name">Goldar</field>
             <field name="res_model">rs_goldar</field>
         </record>
