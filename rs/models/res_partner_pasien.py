@@ -11,6 +11,8 @@ class ResPartnerPasien(models.Model):
     datetime_pendaftaran = fields.Datetime(string='Tanggal dan Jam Pendaftaran',
                                            default=lambda self: fields.Datetime.now())
     rs_agama_id = fields.Many2one("rs_agama")
+    rs_goldar_id = fields.Many2one("rs_goldar")
+    rs_stat_kawin_id = fields.Many2one("rs_stat_kawin")
 
     @api.model
     def create(self, vals):

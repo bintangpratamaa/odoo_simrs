@@ -13,6 +13,8 @@
                         <field name="no_rm"/>
                         <field name="datetime_pendaftaran"/>
                         <field name="rs_agama_id"/>
+                        <field name="rs_goldar_id"/>
+                        <field name="rs_stat_kawin_id"/>
                     </group>
                 </sheet>
                 <!-- chatter -->
