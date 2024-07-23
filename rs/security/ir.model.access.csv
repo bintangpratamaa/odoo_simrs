@@ -6,3 +6,4 @@ ir_model_access.group_user.rs_jenis_bayar,group_user.rs_jenis_bayar,model_rs_jen
 ir_model_access.group_user.rs_agama,group_user.rs_agama,model_rs_agama,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_goldar,group_user.rs_goldar,model_rs_goldar,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_gender,group_user.rs_gender,model_rs_gender,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_bed,group_user.rs_bed,model_rs_bed,base.group_user,1,1,1,1

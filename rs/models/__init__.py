@@ -9,3 +9,4 @@ from . import rs_kelas
 from . import rs_stat_kawin
 from . import rs_prosedur
 from . import rs_gender
+from . import rs_bed
