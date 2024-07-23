@@ -13,6 +13,7 @@ class ResPartnerPasien(models.Model):
     rs_agama_id = fields.Many2one("rs_agama")
     rs_goldar_id = fields.Many2one("rs_goldar")
     rs_stat_kawin_id = fields.Many2one("rs_stat_kawin")
+    rs_gender_id = fields.Many2one("rs_gender")
 
     @api.model
     def create(self, vals):
