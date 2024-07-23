@@ -24,7 +24,9 @@
         'views/rs_stat_kawin_views.xml',
         'views/rs_kelas_views.xml',
         'views/rs_prosedur_views.xml',
+        'views/rs_gender_views.xml',
         'views/menus.xml',
+
     ],
 
 }

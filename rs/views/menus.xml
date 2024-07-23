@@ -15,5 +15,6 @@
         <menuitem id="menu_rs_stat_kawin" sequence="8" action="ir_actions_act_window_rs_stat_kawin" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_kelas" sequence="9" action="ir_actions_act_window_rs_kelas" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_prosedur" sequence="10" action="ir_actions_act_window_rs_prosedur" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_gender" sequence="11" action="ir_actions_act_window_rs_gender" parent="ir_ui_menu_rs_master"/>
     </data>
 </odoo>

@@ -5,3 +5,4 @@ ir_model_access.group_user.rs_grup_diagnosa,group_user.rs_grup_diagnosa,model_rs
 ir_model_access.group_user.rs_jenis_bayar,group_user.rs_jenis_bayar,model_rs_jenis_bayar,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_agama,group_user.rs_agama,model_rs_agama,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_goldar,group_user.rs_goldar,model_rs_goldar,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_gender,group_user.rs_gender,model_rs_gender,base.group_user,1,1,1,1
