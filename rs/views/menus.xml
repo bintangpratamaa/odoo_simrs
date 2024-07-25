@@ -17,5 +17,12 @@
         <menuitem id="menu_rs_prosedur" sequence="10" action="ir_actions_act_window_rs_prosedur" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_gender" sequence="11" action="ir_actions_act_window_rs_gender" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_bed" sequence="12" action="ir_actions_act_window_rs_bed" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_asal_rujukan" sequence="13" action="ir_actions_act_window_rs_asal_rujukan" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_cara_masuk" sequence="14" action="ir_actions_act_window_rs_cara_masuk" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_cara_datang" sequence="15" action="ir_actions_act_window_rs_cara_datang" parent="ir_ui_menu_rs_master"/>
+
+
+
+
     </data>
 </odoo>
