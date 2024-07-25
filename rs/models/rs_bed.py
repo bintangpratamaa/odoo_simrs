@@ -12,6 +12,8 @@ class RsBed(models.Model):
         string="rs bed",
         help="Input nama bed disini")
     rs_kelas_id = fields.Many2one("rs_kelas")
-    name = fields.Char(string="Tempat Tidur")
-    
+    name = fields.Char(string="nama kamar")
+    flag_aktif = fields.Boolean(
+        string="Tersedia"
+    )
     #_order = 'prosedur_code ASC'
