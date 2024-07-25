@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_cara_datang" model="ir.actions.act_window">
+            <field name="name">Cara datang</field>
+            <field name="res_model">rs_cara_datang</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_cara_datang_form" model="ir.ui.view">
+            <field name="name">rs_cara_datang_form</field>
+            <field name="model">rs_cara_datang</field>
+            <field name="arch" type="xml">
+                <form string="Cara datang Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_cara_datang_tree" model="ir.ui.view">
+            <field name="name">rs_cara_datang_tree</field>
+            <field name="model">rs_cara_datang</field>
+            <field name="arch" type="xml">
+                <tree string="Cara datang Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
