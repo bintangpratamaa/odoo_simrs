@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_cara_masuk" model="ir.actions.act_window">
+            <field name="name">Cara masuk</field>
+            <field name="res_model">rs_cara_masuk</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_cara_masuk_form" model="ir.ui.view">
+            <field name="name">rs_cara_masuk_form</field>
+            <field name="model">rs_cara_masuk</field>
+            <field name="arch" type="xml">
+                <form string="Cara masuk Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_cara_masuk_tree" model="ir.ui.view">
+            <field name="name">rs_cara_masuk_tree</field>
+            <field name="model">rs_cara_masuk</field>
+            <field name="arch" type="xml">
+                <tree string="Cara masuk Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
