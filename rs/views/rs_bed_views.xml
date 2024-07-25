@@ -3,7 +3,7 @@
 
         <!-- action -->
         <record id="ir_actions_act_window_rs_bed" model="ir.actions.act_window">
-            <field name="name">bed</field>
+            <field name="name">Tempat Tidur</field>
             <field name="res_model">rs_bed</field>
         </record>
 

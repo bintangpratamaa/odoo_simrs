@@ -3,7 +3,7 @@
 
         <!-- action -->
         <record id="ir_actions_act_window_rs_kelas" model="ir.actions.act_window">
-            <field name="name">kelas</field>
+            <field name="name">Kelas Layanan</field>
             <field name="res_model">rs_kelas</field>
         </record>
 

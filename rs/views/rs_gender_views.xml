@@ -3,7 +3,7 @@
 
         <!-- action -->
         <record id="ir_actions_act_window_rs_gender" model="ir.actions.act_window">
-            <field name="name">gender</field>
+            <field name="name">Jenis Kelamin</field>
             <field name="res_model">rs_gender</field>
         </record>
 

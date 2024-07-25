@@ -9,7 +9,7 @@ class RsGoldar(models.Model):
     _description = 'goldar'
 
     name = fields.Char(
-        string="Goldar",
+        string="Gologan Darah",
         help="Input golongaan darah name here")
     
     _order = 'name ASC'

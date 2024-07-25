@@ -3,7 +3,7 @@
 
         <!-- action -->
         <record id="ir_actions_act_window_rs_prosedur" model="ir.actions.act_window">
-            <field name="name">prosedur</field>
+            <field name="name">Tindakan/Procedure (ICD10cm)</field>
             <field name="res_model">rs_prosedur</field>
         </record>
 

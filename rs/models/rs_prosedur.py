@@ -9,7 +9,7 @@ class RsProsedur(models.Model):
     _description = 'prosedur'
 
     name = fields.Char(
-        string="nama prosedur",
+        string="Nama Prosedur",
         help="Input nama prosedur disini")
     prosedur_code = fields.Char(
         string="prosedur kode",

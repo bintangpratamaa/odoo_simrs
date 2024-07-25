@@ -9,7 +9,7 @@ class RsKelas(models.Model):
     _description = 'kelas'
 
     name = fields.Char(
-        string="kelas",
+        string="Kelas Layanan",
         help="Input kelas kamar here")
 
     _order = 'name ASC'

@@ -9,7 +9,7 @@ class RsGender(models.Model):
     _description = 'gender'
 
     name = fields.Selection([('laki-laki','Laki-Laki'),('perempuan','Perempuan')],
-        string="gender",
+        string="Jenis Kelamin",
         help="Input gender here")
 
     _order = 'name ASC'

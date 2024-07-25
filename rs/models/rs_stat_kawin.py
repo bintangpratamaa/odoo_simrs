@@ -9,7 +9,7 @@ class RsStatkawin(models.Model):
     _description = 'stat kawin'
 
     name = fields.Char(
-        string="status kawin",
+        string="Status Perkawinan",
         help="Input status kawin anda disini")
     
     _order = 'name ASC'

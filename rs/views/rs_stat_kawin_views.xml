@@ -3,7 +3,7 @@
 
         <!-- action -->
         <record id="ir_actions_act_window_rs_stat_kawin" model="ir.actions.act_window">
-            <field name="name">stat_kawin</field>
+            <field name="name">Status Perkawinan</field>
             <field name="res_model">rs_stat_kawin</field>
         </record>
 
