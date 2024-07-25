@@ -10,3 +10,6 @@ from . import rs_stat_kawin
 from . import rs_prosedur
 from . import rs_gender
 from . import rs_bed
+from . import rs_cara_masuk
+from . import rs_asal_rujukan
+from . import rs_cara_datang
