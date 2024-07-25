@@ -10,3 +10,8 @@ ir_model_access.group_user.rs_bed,group_user.rs_bed,model_rs_bed,base.group_user
 ir_model_access.group_user.rs_stat_kawin,group_user.rs_stat_kawin,model_rs_stat_kawin,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_kelas,group_user.rs_kelas,model_rs_kelas,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_prosedur,group_user.rs_prosedur,model_rs_prosedur,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_asal_rujukan,group_user.rs_asal_rujukan,model_rs_asal_rujukan,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_cara_masuk,group_user.rs_cara_masuk,model_rs_cara_masuk,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_asal_rujukan,group_user.rs_asal_rujukan,model_rs_asal_rujukan,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_cara_masuk,group_user.rs_cara_masuk,model_rs_cara_masuk,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_cara_datang,group_user.rs_cara_datang,model_rs_cara_datang,base.group_user,1,1,1,1
