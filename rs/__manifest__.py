@@ -25,6 +25,9 @@
         'views/rs_kelas_views.xml',
         'views/rs_prosedur_views.xml',
         'views/rs_gender_views.xml',
+        'views/rs_asal_rujukan_views.xml',
+        'views/rs_cara_masuk_views.xml',
+        'views/rs_cara_datang_views.xml',
         'views/rs_bed_views.xml',
         'views/menus.xml',
 
