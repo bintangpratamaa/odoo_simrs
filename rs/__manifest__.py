@@ -7,7 +7,7 @@
     'application': True,
     'category': 'Productivity',
     'license': 'Other proprietary',
-    'depends': ['base', 'mail'],
+    'depends': ['base', 'mail','hr','contacts'],
 
     # always loaded
     'data': [
@@ -30,7 +30,6 @@
         'views/rs_cara_datang_views.xml',
         'views/rs_bed_views.xml',
         'views/menus.xml',
-
     ],
 
 }

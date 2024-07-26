@@ -9,22 +9,27 @@
             <form string="Pasien Form">
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="no_rm"/>
-                        <field name="datetime_pendaftaran"/>
-                        <field name="rs_agama_id"/>
-                        <field name="rs_goldar_id"/>
-                        <field name="rs_stat_kawin_id"/>
-                        <field name="rs_gender_id"/>
-                        <field name="address"/>
-                        <field name="no_kk"/>
-                        <field name="no_hp"/>
-                        <field name="no_kis"/>
-                        <field name="suku"/>
-                        <field name="pekerjaan"/>
-                        <field name="tempat_lahir"/>
-                        <field name="zip_code"/>
-                        <field name="pendidikan"/>
+                        <group>
+                            <field name="name"/>
+                            <field name="no_rm"/>
+                            <field name="datetime_pendaftaran"/>
+                            <field name="rs_agama_id"/>
+                            <field name="rs_goldar_id"/>
+                            <field name="rs_stat_kawin_id"/>
+                            <field name="rs_gender_id"/>
+                        </group>
+                        <group>
+                            <field name="address"/>
+                            <field name="no_kk"/>
+                            <field name="no_nik"/>
+                            <field name="no_hp"/>
+                            <field name="no_kis"/>
+                            <field name="suku"/>
+                            <field name="pekerjaan"/>
+                            <field name="tempat_lahir"/>
+                            <field name="zip_code"/>
+                            <field name="pendidikan"/>
+                        </group>
                     </group>
                 </sheet>
                 <!-- chatter -->
