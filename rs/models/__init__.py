@@ -1,4 +1,4 @@
-from . import rs_poli
+from . import rs_unit
 from . import rs_grup_diagnosa
 from . import rs_diagnosa
 from . import res_partner_pasien
@@ -13,3 +13,4 @@ from . import rs_bed
 from . import rs_cara_masuk
 from . import rs_asal_rujukan
 from . import rs_cara_datang
+from . import rs_kamar

@@ -5,16 +5,15 @@ class RsPoli(models.Model):
     # tambahkan chatter
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    _name = 'rs_poli'
-    _description = 'Poli'
+    _name = 'rs_unit'
+    _description = 'Unit Layanan'
 
     name = fields.Char(
-        string="Poli",
+        string="Unit Layanan",
         required=True,
-        tracking=True,
-        help="Input poli name here")
+        tracking=True)
     description = fields.Text()
 
     _sql_constraints = [
-        ('name_check', 'unique(name)', 'Poli Name must unique!')
+        ('name_check', 'unique(name)', 'Unit Name must unique!')
     ]

@@ -6,7 +6,7 @@ class ResPartnerPasien(models.Model):
     _inherit = 'res.partner'
 
     no_rm = fields.Char(string='Nomor Rekam Medis')
-    date_of_birth = fields.Date(string='Date of Birth')
+    date_of_birth = fields.Date(string='Tanggal Lahir')
     flag_pasien = fields.Boolean(string='Pasien')
     datetime_pendaftaran = fields.Datetime(string='Tanggal Daftar',
                                            default=lambda self: fields.Datetime.now())

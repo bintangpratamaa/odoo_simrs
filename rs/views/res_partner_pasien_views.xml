@@ -19,7 +19,6 @@
                             <field name="rs_gender_id"/>
                         </group>
                         <group>
-                            <field name="address"/>
                             <field name="no_kk"/>
                             <field name="no_nik"/>
                             <field name="no_hp"/>
@@ -27,9 +26,20 @@
                             <field name="suku"/>
                             <field name="pekerjaan"/>
                             <field name="tempat_lahir"/>
-                            <field name="zip_code"/>
                             <field name="pendidikan"/>
                         </group>
+                        <notebook>
+                            <page name="alamat" string="Alamat">
+                                <field name="country_id" placeholder="Negara"
+                                       options="{'no_open': True, 'no_create': True}"/>
+                                <field name="state_id" placeholder="Provinsi"
+                                       options="{'no_open': True, 'no_quick_create': True}"
+                                       context="{'country_id': country_id, 'default_country_id': country_id, 'zip': zip}"/>
+                                <field name="street" placeholder="Alamat"/>
+                                <field name="city" placeholder="Kabupaten/Kota"/>
+                                <field name="zip" placeholder="Kode Pos"/>
+                            </page>
+                        </notebook>
                     </group>
                 </sheet>
                 <!-- chatter -->

@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-ir_model_access.group_user.rs_poli,group_user.rs_poli,model_rs_poli,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_unit,group_user.rs_unit,model_rs_unit,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_diagnosa,group_user.rs_diagnosa,model_rs_diagnosa,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_grup_diagnosa,group_user.rs_grup_diagnosa,model_rs_grup_diagnosa,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_jenis_bayar,group_user.rs_jenis_bayar,model_rs_jenis_bayar,base.group_user,1,1,1,1
@@ -15,3 +15,4 @@ ir_model_access.group_user.rs_cara_masuk,group_user.rs_cara_masuk,model_rs_cara_
 ir_model_access.group_user.rs_asal_rujukan,group_user.rs_asal_rujukan,model_rs_asal_rujukan,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_cara_masuk,group_user.rs_cara_masuk,model_rs_cara_masuk,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_cara_datang,group_user.rs_cara_datang,model_rs_cara_datang,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_kamar,group_user.rs_kamar,model_rs_kamar,base.group_user,1,1,1,1

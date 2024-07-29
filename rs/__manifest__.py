@@ -7,13 +7,14 @@
     'application': True,
     'category': 'Productivity',
     'license': 'Other proprietary',
-    'depends': ['base', 'mail','hr','contacts'],
+    'depends': ['base', 'mail','hr','contacts','stock'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'data/rs_kamar.csv',
         # 'data/sfx_jenis_obat.csv',
-        'views/rs_poli_views.xml',
+        'views/rs_unit_views.xml',
         'views/rs_diagnosa_views.xml',
         'views/rs_grup_diagnosa_views.xml',
         'views/res_partner_pasien_views.xml',
@@ -29,6 +30,7 @@
         'views/rs_cara_masuk_views.xml',
         'views/rs_cara_datang_views.xml',
         'views/rs_bed_views.xml',
+        'views/rs_kamar_views.xml',
         'views/menus.xml',
     ],
 
