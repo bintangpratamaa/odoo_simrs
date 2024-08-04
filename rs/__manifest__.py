@@ -32,6 +32,7 @@
         'views/rs_bed_views.xml',
         'views/rs_kamar_views.xml',
         'views/rs_ruang_views.xml',
+        'views/rs_hub_pasien_views.xml',
         'views/menus.xml',
     ],
 
