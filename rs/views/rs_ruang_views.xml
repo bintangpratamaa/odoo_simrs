@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_ruang" model="ir.actions.act_window">
+            <field name="name">Ruangan</field>
+            <field name="res_model">rs_ruang</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_ruang_form" model="ir.ui.view">
+            <field name="name">rs_ruang_form</field>
+            <field name="model">rs_ruang</field>
+            <field name="arch" type="xml">
+                <form string="ruang Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_ruang_tree" model="ir.ui.view">
+            <field name="name">rs_ruang_tree</field>
+            <field name="model">rs_ruang</field>
+            <field name="arch" type="xml">
+                <tree string="Ruangan Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
