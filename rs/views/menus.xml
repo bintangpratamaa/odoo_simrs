@@ -22,6 +22,7 @@
         <menuitem id="menu_rs_cara_datang" sequence="15" action="ir_actions_act_window_rs_cara_datang" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_kamar" sequence="16" action="ir_actions_act_window_rs_kamar" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_ruang" sequence="17" action="ir_actions_act_window_rs_ruang" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_hub_pasien" sequence="18" action="ir_actions_act_window_rs_hub_pasien" parent="ir_ui_menu_rs_master"/>
 
     </data>
 </odoo>
