@@ -14,3 +14,4 @@ from . import rs_cara_masuk
 from . import rs_asal_rujukan
 from . import rs_cara_datang
 from . import rs_kamar
+from . import rs_ruang
