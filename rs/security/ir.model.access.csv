@@ -17,3 +17,4 @@ ir_model_access.group_user.rs_cara_masuk,group_user.rs_cara_masuk,model_rs_cara_
 ir_model_access.group_user.rs_cara_datang,group_user.rs_cara_datang,model_rs_cara_datang,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_kamar,group_user.rs_kamar,model_rs_kamar,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_ruang,group_user.rs_ruang,model_rs_ruang,base.group_user,1,1,1,1
+ir_model_access.group_user.rs_hub_pasien,group_user.rs_hub_pasien,model_rs_hub_pasien,base.group_user,1,1,1,1
