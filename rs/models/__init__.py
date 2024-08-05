@@ -16,3 +16,5 @@ from . import rs_cara_datang
 from . import rs_kamar
 from . import rs_ruang
 from . import rs_hub_pasien
+from . import rs_kun
+from . import rs_data_sdm
