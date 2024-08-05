@@ -1,0 +1,59 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_kun" model="ir.actions.act_window">
+            <field name="name">Kunjungan</field>
+            <field name="res_model">rs_kun</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_kun_form" model="ir.ui.view">
+            <field name="name">rs_kun_form</field>
+            <field name="model">rs_kun</field>
+            <field name="arch" type="xml">
+                <form string="kunjungan Form">
+                    <sheet>
+                        <group>
+                            <field name="res_partner_id"/>
+                            <field name="tanggal_kunjungan"/>
+                            <field name="rs_jenis_bayar_id"/>
+                            <field name="rs_unit_id"/>
+                            <field name="rs_asal_rujukan_id"/>
+                            <field name="rs_cara_masuk_id"/>
+                            <field name="rs_cara_datang"/>
+                            <field name="dokter_hr_employee_id"/>
+                            <field name="pj_nama"/>
+                            <field name="pj_rs_hub_pasien_id"/>
+                            <field name="pj_no_telepon"/>
+                            <field name="pj_bahasa"/>
+                            <field name="pj_jenis_kelamin_id"/>
+                            <field name="pj_umur"/>
+                            <field name="pj_pekerjaan"/>
+                            <field name="pj_alamat"/>
+                            <field name="pj_keterangan"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_kun_tree" model="ir.ui.view">
+            <field name="name">rs_kun_tree</field>
+            <field name="model">rs_kun</field>
+            <field name="arch" type="xml">
+                <tree string="kunjungan Tree">
+                    <field name="res_partner_id"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
