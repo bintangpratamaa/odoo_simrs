@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+
+        <!-- action -->
+        <record id="ir_actions_act_window_rs_data_kamar" model="ir.actions.act_window">
+            <field name="name">Data Kamar</field>
+            <field name="res_model">rs_data_kamar</field>
+        </record>
+
+        <!-- form -->
+        <record id="ir_ui_view_rs_data_kamar_form" model="ir.ui.view">
+            <field name="name">rs_data_kamar_form</field>
+            <field name="model">rs_data_kamar</field>
+            <field name="arch" type="xml">
+                <form string="data kamar Form">
+                    <sheet>
+                        <group>
+                            <field name="rs_ruang_id"/>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                    <!-- chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- list / tree / tabular -->
+        <record id="ir_ui_view_rs_data_kamar_tree" model="ir.ui.view">
+            <field name="name">rs_data_kamar_tree</field>
+            <field name="model">rs_data_kamar</field>
+            <field name="arch" type="xml">
+                <tree string="data kamar Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>
