@@ -13,6 +13,7 @@
     'data': [
         'security/ir.model.access.csv',
         'data/rs_kamar.csv',
+        'data/rs_unit.csv',
         # 'data/sfx_jenis_obat.csv',
         'views/rs_unit_views.xml',
         'views/rs_diagnosa_views.xml',
@@ -34,6 +35,7 @@
         'views/rs_ruang_views.xml',
         'views/rs_hub_pasien_views.xml',
         'views/rs_kun_views.xml',
+        'views/rs_department_views.xml',
         'views/menus.xml',
     ],
 
