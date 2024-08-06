@@ -20,3 +20,4 @@ from . import rs_kun
 from . import rs_data_sdm
 from . import rs_department
 from . import rs_installation
+from . import rs_data_kamar
