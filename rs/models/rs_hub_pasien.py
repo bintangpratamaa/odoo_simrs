@@ -8,10 +8,9 @@ class RsHubPasien(models.Model):
     _name = 'rs_hub_pasien'
     _description = 'hubungan dengan pasien'
 
-    name = fields.Selection([
-        ('diri_sendiri', 'Diri Sendiri'),('anak', 'Anak'),('istri', 'Istri'), ('ayah_kandung', 'Ayah Kandung'),('ibu_kandung', 'Ibu Kandung')],
+    name = fields.Char(
 
        string="Hubungan dengan pasien",
        help="Input Hubungan dengan pasien")
 
-    _order = 'name ASC'
+    #_order = 'name ASC'
