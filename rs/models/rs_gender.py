@@ -8,7 +8,7 @@ class RsGender(models.Model):
     _name = 'rs_gender'
     _description = 'gender'
 
-    name = fields.Selection([('laki-laki','Laki-Laki'),('perempuan','Perempuan')],
+    name = fields.Char(
         string="Jenis Kelamin",
         help="Input gender here")
 
