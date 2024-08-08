@@ -46,7 +46,7 @@
         'views/rs_ruang_views.xml',
         'views/rs_hub_pasien_views.xml',
         'views/rs_kun_views.xml',
-        'views/rs_department_views.xml',
+        'views/rs_department.xml',
         'views/rs_data_kamar_views.xml',
         'views/menus.xml',
     ],
