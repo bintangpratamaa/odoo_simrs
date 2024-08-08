@@ -25,5 +25,7 @@
         <menuitem id="menu_rs_kun" sequence="18" action="ir_actions_act_window_rs_kun" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_installation" sequence="19" action="ir_actions_act_window_department" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_data_kamar" sequence="20" action="ir_actions_act_window_rs_data_kamar" parent="ir_ui_menu_rs_master"/>
+        <menuitem id="menu_rs_hub_pasien" sequence="21" action="ir_actions_act_window_rs_hub_pasien" parent="ir_ui_menu_rs_master"/>
+
     </data>
 </odoo>
