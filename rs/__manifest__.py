@@ -25,6 +25,7 @@
         'data/rs_hub_pasien.csv',
         'data/rs_gender.csv',
         'data/rs_jenis_bayar.csv',
+        'data/hr.department.csv',
         # 'data/sfx_jenis_obat.csv',
         'views/rs_unit_views.xml',
         'views/rs_diagnosa_views.xml',
