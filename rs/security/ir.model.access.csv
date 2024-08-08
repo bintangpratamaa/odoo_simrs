@@ -19,5 +19,4 @@ ir_model_access.group_user.rs_kamar,group_user.rs_kamar,model_rs_kamar,base.grou
 ir_model_access.group_user.rs_ruang,group_user.rs_ruang,model_rs_ruang,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_hub_pasien,group_user.rs_hub_pasien,model_rs_hub_pasien,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_kun,group_user.rs_kun,model_rs_kun,base.group_user,1,1,1,1
-ir_model_access.group_user.rs_installation,group_user.rs_installation,model_rs_installation,base.group_user,1,1,1,1
 ir_model_access.group_user.rs_data_kamar,group_user.rs_data_kamar,model_rs_data_kamar,base.group_user,1,1,1,1
