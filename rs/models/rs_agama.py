@@ -12,8 +12,5 @@ class RsAgama(models.Model):
         string="Agama",
         help="Input agama name here")
 
-    _sql_constraints = [
-        ('name_check', 'unique(name)', 'Poli Name must unique!')
-    ]
-    
+
     #_order = 'name ASC'
