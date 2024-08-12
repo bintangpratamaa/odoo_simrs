@@ -3,16 +3,19 @@
     <data>
         <!-- Inherit the res.partner form view -->
         <record id="view_partner_form_inherit_product" model="ir.ui.view">
-            <field name="name">product.template.product.form</field>
+            <field name="name">product.template.form.inherit.product</field>
             <field name="model">product.template</field>
-            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
             <field name="arch" type="xml">
-                <xpath expr="//form" position="attributes">
-                    <attribute name="name">Product Template
+                <xpath expr="//page[@name='Inventory']" position="after">
+                   <page name="Flag_Obat" string="Obat">
                         <group>
                             <field name="flag_obat"/>
+                            <field name="kfa_code"/>
+                            <field name="default_aturan"/>
+                            <field name="cacah_yang_dicover_bpjs_per_kunjungan"/>
                         </group>
-                    </attribute>
+                    </page>
                 </xpath>
             </field>
         </record>
