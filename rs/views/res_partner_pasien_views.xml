@@ -69,7 +69,6 @@
         <field name="name">Pasien</field>
         <field name="res_model">res.partner</field>
         <field name="view_mode">tree,form</field>
-        <field name="domain">[('flag_pasien', '=', True),('is_company','=',False)]</field>
         <field name="view_ids"
                eval="[
                (5, 0, 0),
