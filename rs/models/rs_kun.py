@@ -8,7 +8,7 @@ class RsKun(models.Model):
     _name = 'rs_kun'
     _description = 'Kunjungan'
 
-    res_partner_id = fields.Many2many("res.partner",
+    res_partner_id = fields.Many2one("res.partner",
         string="pilih pasien",
         help="Input pasien name here")
 
@@ -19,7 +19,7 @@ class RsKun(models.Model):
     rs_cara_masuk_id = fields.Many2one("rs_cara_masuk", string="Cara Masuk")
     rs_cara_datang = fields.Many2one("rs_cara_datang", string="Cara Datang")
 
-    dokter_hr_employee_id = fields.Many2many("hr.employee", string="Dokter Penanggung Jawab")
+    dokter_hr_employee_id = fields.Many2one("hr.employee", string="Dokter Penanggung Jawab")
 
 
     pj_nama = fields.Char(string="Nama Penanggung Jawab")
