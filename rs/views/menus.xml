@@ -8,7 +8,6 @@
         <menuitem id="ir_ui_menu_rs_unit" sequence="1" action="ir_actions_act_window_rs_unit" parent="ir_ui_menu_rs_master"/>
         <menuitem id="ir_ui_menu_rs_grup_diagnosa" sequence="2" action="ir_actions_act_window_rs_grup_diagnosa" parent="ir_ui_menu_rs_master"/>
         <menuitem id="ir_ui_menu_rs_diagnosa" sequence="3" action="ir_actions_act_window_rs_diagnosa" parent="ir_ui_menu_rs_master"/>
-        <menuitem id="ir_ui_menu_rs_pasien" sequence="4" action="ir_actions_act_window_rs_pasien" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_jenis_bayar" sequence="5" action="action_rs_jenis_bayar" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_agama" sequence="6" action="ir_actions_act_window_rs_agama" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_goldar" sequence="7" action="ir_actions_act_window_rs_goldar" parent="ir_ui_menu_rs_master"/>
@@ -22,11 +21,16 @@
         <menuitem id="menu_rs_cara_datang" sequence="15" action="ir_actions_act_window_rs_cara_datang" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_kamar" sequence="16" action="ir_actions_act_window_rs_kamar" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_ruang" sequence="17" action="ir_actions_act_window_rs_ruang" parent="ir_ui_menu_rs_master"/>
-        <menuitem id="menu_rs_kun" sequence="18" action="ir_actions_act_window_rs_kun" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_installation" sequence="19" action="ir_action_act_window_rs_installation_department" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_data_kamar" sequence="20" action="ir_actions_act_window_rs_data_kamar" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_rs_hub_pasien" sequence="21" action="ir_actions_act_window_rs_hub_pasien" parent="ir_ui_menu_rs_master"/>
         <menuitem id="menu_product_obat" sequence="22" action="ir_actions_act_window_product_template" parent="ir_ui_menu_rs_master"/>
+        <!--pendaftaran-->
+        <menuitem id="ir_ui_menu_rs_pendaftaran" name="pendaftaran" sequence="2" parent="ir_ui_menu_rs_root"/>
+        <menuitem id="menu_rs_kunjungan" sequence="1" action="ir_actions_act_window_rs_kun" parent="ir_ui_menu_rs_pendaftaran"/>
+        <menuitem id="ir_ui_menu_rs_pasien_baru" sequence="2" action="ir_actions_act_window_rs_pasien" parent="ir_ui_menu_rs_pendaftaran"/>
+
+
 
     </data>
 </odoo>
