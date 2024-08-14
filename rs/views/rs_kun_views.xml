@@ -15,23 +15,27 @@
                 <form string="kunjungan Form">
                     <sheet>
                         <group>
-                            <field name="res_partner_id"/>
-                            <field name="tanggal_kunjungan"/>
-                            <field name="rs_jenis_bayar_id"/>
-                            <field name="rs_unit_id"/>
-                            <field name="rs_asal_rujukan_id"/>
-                            <field name="rs_cara_masuk_id"/>
-                            <field name="rs_cara_datang"/>
-                            <field name="dokter_hr_employee_id"/>
-                            <field name="pj_nama"/>
-                            <field name="pj_rs_hub_pasien_id"/>
-                            <field name="pj_no_telepon"/>
-                            <field name="pj_bahasa"/>
-                            <field name="pj_jenis_kelamin_id"/>
-                            <field name="pj_umur"/>
-                            <field name="pj_pekerjaan"/>
-                            <field name="pj_alamat"/>
-                            <field name="pj_keterangan"/>
+                            <group>
+                                <field name="res_partner_id"/>
+                                <field name="tanggal_kunjungan"/>
+                                <field name="rs_jenis_bayar_id"/>
+                                <field name="rs_unit_id"/>
+                                <field name="rs_asal_rujukan_id"/>
+                                <field name="rs_cara_masuk_id"/>
+                                <field name="rs_cara_datang"/>
+                                <field name="dokter_hr_employee_id"/>
+                            </group>
+                            <group>
+                                <field name="pj_nama"/>
+                                <field name="pj_rs_hub_pasien_id"/>
+                                <field name="pj_no_telepon"/>
+                                <field name="pj_bahasa"/>
+                                <field name="pj_jenis_kelamin_id"/>
+                                <field name="pj_umur"/>
+                                <field name="pj_pekerjaan"/>
+                                <field name="pj_alamat"/>
+                                <field name="pj_keterangan"/>
+                            </group>
                         </group>
                     </sheet>
                     <!-- chatter -->
