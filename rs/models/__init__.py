@@ -18,6 +18,5 @@ from . import rs_ruang
 from . import rs_hub_pasien
 from . import rs_kun
 from . import rs_data_sdm
-from . import hr_department
 from . import rs_data_kamar
 from . import product_template

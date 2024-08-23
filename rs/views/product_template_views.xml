@@ -7,17 +7,13 @@
         <field name="inherit_id" ref="product.product_template_only_form_view"/>
         <field name="arch" type="xml">
             <xpath expr="//page[@name='inventory']" position="after">
-               <page name="Flag_Obat" string="Obat">
-                    <sheet>
-                        <group>
-                            <group>
-                                <field name="name"/>
-                                <field name="kfa_code"/>
-                                <field name="default_aturan"/>
-                                <field name="cacah_yang_dicover_bpjs_per_kunjungan"/>
-                            </group>
-                        </group>
-                    </sheet>
+                <page name="obat" string="Obat">
+                    <group>
+                        <field name="flag_obat"/>
+                        <field name="kfa_code"/>
+                        <field name="default_aturan"/>
+                        <field name="cacah_yang_dicover_bpjs_per_kunjungan"/>
+                    </group>
                 </page>
             </xpath>
         </field>
